@@ -40,6 +40,7 @@ data/processed/supermarket_tratado.csv
        ▼             ▼
 resultados/      resultados/
 estatisticas/    graficos/
+
 🗃️ Fonte dos Dados
 
 Os dados utilizados no projeto foram obtidos por meio do Kaggle:
@@ -54,11 +55,11 @@ A base original está no formato CSV, delimitada por vírgulas, contendo dados n
 
 O projeto utiliza uma estrutura inspirada na Arquitetura Medallion, separando os dados conforme seu nível de tratamento:
 
-🟤 RAW
+🟫 RAW
 
 Armazena os dados exatamente como foram obtidos na fonte original.
 
-🟫 BRONZE
+🟤 BRONZE
 
 Recebe os dados brutos no banco de dados, servindo como etapa intermediária para o processo de transformação.
 
