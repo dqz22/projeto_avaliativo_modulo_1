@@ -8,6 +8,7 @@ O projeto foi estruturado com base no conceito de Arquitetura Medallion, utiliza
 O fluxo desenvolvido contempla desde a ingestão dos dados brutos até o tratamento, transformação, análise exploratória e geração de informações para responder às perguntas de negócio.
 
 🏗️ Fluxo do Projeto
+
 supermarket.csv
        │
        ▼
